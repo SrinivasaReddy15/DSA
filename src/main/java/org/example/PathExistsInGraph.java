@@ -10,7 +10,6 @@ public class PathExistsInGraph {
         if (n == 0) return false;
         if (src == dest) return true;
 
-
         List<List<Integer>> graph = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             graph.add(new ArrayList<>());
